@@ -1,0 +1,1020 @@
+@import url("../fonts.css");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    text-decoration: none;
+    outline: none;
+    box-sizing: border-box;
+
+    font-family: "Montserrat";
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+.header{
+    background-color: rgb(237, 243, 248);
+    width: 100%;
+}
+.header .slider-1 .container{
+    display: flex;
+    flex-direction: row;
+    padding-top: 15px;
+    width: 1200px;
+}
+.header .slider-1 .container .sulka{
+    display: flex;
+    flex-direction: row;
+    margin-right: 27%;
+    margin-left: 30%;
+}
+.header .slider-1 .container .sulka p{
+    margin-right: 9px;
+    font-weight: bold;
+}
+.header .navigation .container .str1{
+    display: flex;
+    flex-direction: row;
+    padding-top: 100px;
+}
+.header .navigation .container .str1 .left{
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+}
+.header .navigation .container .str1 .left .vibor .button-auth{
+    padding: 20px 70px;
+    border-radius: 5px;
+    outline: 2px solid blue;
+    outline-offset: 5px;
+    background-color: blue;
+    color: rgb(255, 255, 255);
+    margin: 10px;
+    cursor: pointer;
+    color: white;
+    font-size: 16px;
+}
+.header .navigation .container .str1 .left h2{
+    font-size: 50px;
+}
+.header .navigation .container .str1 .left p{
+    font-size: 17px;
+    margin-top: 15px;
+    margin-bottom: 60px;
+}
+.header .section-1 .container .group{
+    display: flex;
+    justify-content: space-between;
+}
+.header .section-1 .container .group .odin{
+    background-color: #fff;
+    border-radius: 15px;
+    padding-right: 55px;
+    padding-left: 55px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.header .section-1 .container .group .odin p{
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 40px;
+}
+.header .section-1 .container .group .dva{
+    background-color: #fff;
+    border-radius: 15px;
+    padding-right: 35px;
+    padding-left: 35px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.header .section-1 .container .group .dva p{
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 100px;
+}
+.header .section-1 .container .group .tru{
+    background-color: #fff;
+    border-radius: 15px;
+    padding-right: 55px;
+    padding-left: 55px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.header .section-1 .container .group .tru p{
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 80px;
+}
+.header .section-1{
+    margin-top: 5%;
+}
+.header .section-1 .container h1{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.header .section-1 .container .button-auth1{
+    padding: 20px 70px;
+    border-radius: 5px;
+    outline: 2px solid blue;
+    outline-offset: 5px;
+    background-color: blue;
+    color: rgb(255, 255, 255);
+    margin: 10px;
+    cursor: pointer;
+    margin-left: 40%;
+    margin-top: 5%;
+}
+.header .section-2 .container{
+    background-image: url(/assets/img/5.jpg);
+    width: 1160px;
+    height: 492px;
+    margin-top: 50px;
+}
+.header .section-2 .container h2{
+    font-size: 45px;
+    padding-top: 10%;
+    margin-left: 50px;
+}
+.header .section-2 .container p{
+    font-size: 15px;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+.header .section-2 .container .button-auth7{
+    padding: 20px 30px;
+    border-radius: 5px;
+    outline: 2px solid blue;
+    outline-offset: 5px;
+    background-color: blue;
+    color: rgb(255, 255, 255);
+    margin: 10px;
+    cursor: pointer;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+.header .section-3 .container{
+    display: flex;
+    flex-direction: row;
+    margin-top: 5%;
+}
+.header .section-3 .container .colonka2{
+    margin-left: 5%;
+    font-size: 15px;
+}
+.header .section-3 .container .colonka3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.header .section-3 .container .colonka2 .podpis1{
+    margin-bottom: 2px;
+    font-size: 17px;
+    font-weight: bold;
+}
+.header .section-3 .container .colonka2 h2{
+    margin-bottom: 8px;
+    font-size: 35px;
+}
+.header .section-3 .container .colonka2 .podpis2{
+    margin-bottom: 20px;
+}
+.header .section-3 .container .colonka2 .container1{
+    background-color: #fff;
+    border-radius: 10px;
+    color: black;
+    width: 50%;
+    padding: 10px 10px;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+.header .section-3 .container .colonka2 .container2{
+    background-color: #fff;
+    border-radius: 10px;
+    color: black;
+    width: 60%;
+    padding: 10px 10px;
+    margin-left: 8%;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+.header .section-3 .container .colonka2 .ooo{
+    display: flex;
+    flex-direction: row;
+}
+.header .section-3 .container .colonka3 .cena{
+    font-size: 50px;
+    font-weight: bold;
+}
+.header .section-3 .container .colonka3 .button-auth2{
+    padding: 20px 50px;
+    border-radius: 5px;
+    outline: 2px solid blue;
+    outline-offset: 5px;
+    background-color: blue;
+    color: rgb(255, 255, 255);
+    margin: 10px;
+    cursor: pointer;
+}
+.header .section-4 .container{
+    margin-top: 5%;
+}
+.header .section-4 .container .list{
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+}
+.header .section-4 .container .list .container3{
+    background-color: blue;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-right: 15px;
+    cursor: pointer;
+}
+.header .section-4 .container .list .container4{
+    background-color: rgb(255, 255, 255);
+    color: #000000;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-right: 15px;
+    cursor: pointer;
+}
+.header .section-4 .container .list .container5{
+    background-color: rgb(255, 255, 255);
+    color: #000000;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-right: 15px;
+    cursor: pointer;
+}
+.header .section-4 .container .list2{
+    display: flex;
+    flex-direction: row;
+}
+.header .section-4 .container .list2 .colon2{
+    width: 75%;
+    display: flex;
+    flex-direction: row;
+
+}
+.header .section-4 .container .list2 .colon1{
+    width: 25%;
+}
+.header .section-4 .container .colon2 .container6{
+    background-color: #fff;
+    margin-right: 25px;
+    border-radius: 15px;
+    padding-left: 65px;
+    padding-right: 30px;
+    padding-top: 10px;
+}
+.header .section-4 .container .colon2 .container6 p{
+    margin-left: -45px;
+    font-size: 13px;
+}
+.header .section-4 .container .colon2 .container6 h2{
+    margin-left: -45px;
+    font-size: 20px;
+}
+.header .section-4 .container .colon2 .container7{
+    background-color: #fff;
+    margin-right: 25px;
+    border-radius: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+}
+.header .section-4 .container .colon2 .container7 p{
+    margin-left: 45px;
+    font-size: 13px;
+}
+.header .section-4 .container .colon2 .container7 h2{
+    font-size: 20px;
+    margin-top: 12px;
+}
+.header .section-4 .container .list2{
+    margin-top: 30px;
+}
+.header .section-4 .container .colon2 .container8{
+    background-color: #fff;
+    border-radius: 15px;
+    padding-left: 35px;
+    padding-right: 10px;
+    padding-top: 10px;
+}
+.header .section-4 .container .colon2 .container8 p{
+    font-size: 13px;
+    margin-left: -15px;
+}
+.header .section-4 .container .colon2 .container8 h2{
+    font-size: 20px;
+   
+}
+
+.header .section-5 .container{
+    display: flex;
+    flex-direction: row;
+    margin-top: 5%;
+}
+.header .section-5 .container .colonn1{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+}
+.header .section-5 .container .colonn1 h2{
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+.header .section-5 .container .colonn1 p{
+    margin-bottom: 10px;
+}
+.header .section-5 .container .colonn1 .button-auth3{
+    padding: 20px 20px;
+    border-radius: 6px;
+    outline: 1px solid blue;
+    outline-offset: 5px;
+    background-color: blue;
+    color: rgb(255, 255, 255);
+    margin: 10px;
+    cursor: pointer;
+    width: 50%;
+    margin-top: 10%;
+}
+.header .section-5 .container .colonn2{
+    width: 70%;
+    margin-left: 8%;
+}
+.header .section-6 .container .str{
+    display: flex;
+    flex-direction: row;
+}
+.header .section-6 .container h1{
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+}
+.header .section-6 .container {
+    margin-top: 5%;
+}
+.header .section-6 .container .str .colonnk1 .number{
+    background-color: blue;
+    color: #fff;
+    border-radius: 10px;
+    width: 20%;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 10%;
+    width: 20%;
+    margin-bottom: 15px;
+}
+.header .section-6 .container .str .colonnk2 .number{
+    background-color: blue;
+    color: #fff;
+    border-radius: 10px;
+    width: 20%;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 10%;
+    margin-bottom: 15px;
+}
+.header .section-6 .container .str .colonnk3 .number{
+    background-color: blue;
+    color: #fff;
+    border-radius: 10px;
+    width: 20%;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 10%;
+    margin-bottom: 15px;
+}
+.header .section-6 .container .str .colonnk4 .number{
+    background-color: blue;
+    color: #fff;
+    border-radius: 10px;
+    width: 18%;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 8%;
+    margin-bottom: 15px;
+}
+.header .section-6 .container .str .colonnk1 h2{
+    margin-bottom: 10px;
+}
+.header .section-6 .container .str .colonnk2 h2{
+    margin-bottom: 10px;
+}
+.header .section-6 .container .str .colonnk3 h2{
+    margin-bottom: 10px;
+}
+.header .section-6 .container .str .colonnk4 h2{
+    margin-bottom: 10px;
+}
+.header .section-6 .container .str .colonnk1{
+    width: 80%;
+}
+.header .section-6 .container .str .colonnk2{
+    width: 80%;
+}
+.header .section-6 .container .str .colonnk3{
+    width: 80%;
+}
+.header .section-6 .container .str .colonnk14{
+    width: 80%;
+}
+.header .section-7 .container{
+    width: 1200px;
+    background-color: rgb(234, 238, 240);
+    margin-top: 3%;
+}
+.header .section-7 .container h1{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    padding-top: 8%;
+}
+.header .section-7 .container .pop p{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 15px;
+}
+.header .section-7 .container .strochka1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 5%;
+}
+.header .section-7 .container .strochka1 .kkk p {
+    margin-left: 30px;
+    margin-top: 10px;
+}
+.header .section-7 .container .strochka1 .kkk2 p {
+    margin-left: 30px;
+    margin-top: 10px;
+}
+.header .section-7 .container .strochka1 .input-auth{
+    border-radius: 5px;
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: rgb(0, 0, 0, 0);
+    border: 1px solid #999 ;
+    margin-left: 30px;
+}
+.header .section-7 .container  .kkk3{
+    display: flex;
+    flex-direction: column;
+    margin-left: 30%;
+
+}
+.header .section-7 .container  .kkk3 .input-auth{
+    border-radius: 5px;
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: rgb(0, 0, 0, 0);
+    border: 1px solid #999 ;
+    margin-left: 30px;
+    width: 51.5%;
+    margin-left: 40px;
+
+}
+.header .section-7 .container  .kkk3 p{
+    margin-left: 40px;
+    margin-top: 20px;
+}
+.header .section-7 .container .podpiss{
+    font-size: 15px;
+    margin-left: 33.5%;
+    margin-top: 15px;
+}
+.header .section-7 .container .strochka2{
+    font-size: 15px;
+    margin-left: 33.5%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.header .section-7 .container .containerS{
+    font-size: 15px;
+    margin-left: 33.5%;
+ 
+}
+.header .section-7 .container .knopk .button-auth4{
+    padding: 15px 20px;
+    border-radius: 6px;
+    outline: 1px solid blue;
+    outline-offset: 5px;
+    background-color: blue;
+    color: rgb(255, 255, 255);
+    margin: 10px;
+    cursor: pointer;
+    width: 15%;
+    margin-top: 20px;
+    margin-left: 45%;   
+}
+.header .section-7 .container .knopk{
+    padding-bottom: 150px;
+}
+.header .section-8 .container .intro{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
+.header .section-8 .container .intro2 img{
+    margin-left: 5px;
+}
+
+.container{
+    width: 1200px;
+}
+@media (max-width: 1200px) {
+    .container{
+        width: 950px;
+    }
+}
+
+@media (max-width: 992px) {
+    .container{
+        width: 720px !important;
+    }
+    .header .slider-1 .container{
+        margin-left: -1px;
+    }
+    .header .slider-1 .container .sulka{
+        margin-left: 35%;
+        margin-right: 35%;
+    }
+    .header .slider-1 .container .icon{
+        display: flex;
+        flex-direction: row;
+    }
+    .header .navigation .container .str1 .left h2{
+        font-size: 45px;
+    }
+    .header .navigation .container .str1 .left p{
+        font-size: 15px;
+    }
+    .header .navigation .container .right .pic-3 img{
+        width: 500px;
+    }
+    .header .navigation .container .str1 .left .vibor .button-auth{
+        padding: 20px 50px;
+    }
+    .section-1 .container{
+        margin-left: -10px;
+        margin-left: 45px;
+    }
+    .header .section-1 .container h1{
+        margin-left: 35%;
+    }
+    .header .section-1 .container .group .tru{
+        margin-left: 10px;
+    }
+    .header .section-1 .container .group .dva{
+        margin-left: 10px;
+    }
+    .header .section-1 .container .button-auth1{
+        margin-left: 50%;
+    }
+    .header .section-3 .container{
+        margin-left: 30px;
+    }
+    .header .section-3 .container .colonka3 .cena{
+        font-size: 35px;
+        padding-left: 10px;
+    }
+    .header .section-3 .container .colonka2 .podpis2{
+        font-size: 13px;
+    }
+    .header .section-3 .container .colonka3 .button-auth2{
+        padding: 5px 50px;
+        margin-left: 60px;
+    }
+    .header .section-4 .container{
+        margin-left: 45px;
+    }
+    .header .section-4 .container .colon2 .container6{
+        margin-left: 10px;
+    }
+    .header .section-5 .container{
+        margin-left: 45px;
+    }
+    .header .section-5 .container .colonn2 img{
+        width: 500px;
+        margin-left: 50px;
+    }
+    .header .section-5 .container .colonn1{
+        padding-left: 40px;
+        width: 90%;
+    }
+    .header .section-6 .container{
+        margin-left: 90px;
+    }
+    .header .section-6 .container .str .colonnk1{
+        margin-left: 30px;
+        width: 90%;
+        margin-top: 10px;
+    }
+    .header .section-6 .container .str .colonnk2{
+        margin-left: 30px;
+        width: 90%;
+        margin-top: 10px;
+    }
+    .header .section-6 .container .str .colonnk3{
+        margin-left: 30px;
+        width: 90%;
+        margin-top: 10px;
+    }
+    .header .section-6 .container .str .colonnk4{
+        margin-left: 30px;
+        width: 90%;
+        margin-top: 10px;
+    }
+    .header .section-7 .container .strochka1{
+        margin-left: -50px;
+    }
+    .header .section-7 .container .kkk3 p{
+        margin-left: -80px;
+    }
+    .header .section-7 .container .kkk3 .input-auth{
+        width: 85%;
+        margin-left: -80px;
+    }
+    .header .section-7 .container .podpiss{
+        margin-left: 135px;
+    }
+    .header .section-7 .container .strochka2{
+        margin-left: 135px;
+    }
+    .header .section-7 .container .containerS{
+        margin-left: 135px;
+    }
+    .header .section-7 .container .knopk .button-auth4 {
+        width: 20%;
+        margin-left: 300px;
+    }
+
+    
+
+}
+
+@media (max-width: 768px) {
+    .container{
+        width:  540px;
+    }
+    .header .navigation .container .right .pic-3 img{
+        width: 400px;
+    }
+    .header .navigation .container .str1 .left h2{
+        font-size: 30px;
+    }
+    .header .navigation .container .str1 .left{
+        margin-top: -20px;
+    }
+    .header .navigation .container .str1 .left .vibor .button-auth{
+        font-size: 13px;
+        padding: 20px 50px;
+    }
+    .header .section-1 .container h1{
+        margin-left: -15px;
+    }
+    .header .section-1 .container .group{
+        flex-direction: column;
+    }
+    .header .section-1 .container .group .odin{
+        width: 40%;
+        margin-left: 190px;
+    }
+    .header .section-1 .container .group .dva{
+        width: 40%;
+        margin-top: 20px;
+        margin-left: 190px;
+    }
+    .header .section-1 .container .group .tru{
+        width: 40%;
+        margin-top: 20px;
+        margin-left: 190px;
+    }
+    .header .section-1 .container .button-auth1{
+        margin-left: 30%;
+    }
+    .header .section-3 .container{
+        flex-direction: column;
+    }
+    .header .section-3 .container .colonka1{
+        margin-left: 70px;
+    }
+    .header .section-4 .container .list2 .colon2{
+        flex-direction: column;
+    }
+    .header .section-4 .container .colon2 .container6{
+        width: 40%;
+    }
+    .header .section-4 .container .colon2 .container7{
+        width: 40%;
+        margin-top: 20px;
+    }
+    .header .section-4 .container .colon2 .container8{
+        width: 40%;
+        margin-top: 20px;
+    }
+    .header .section-5 .container .colonn1 p{
+        font-size: 10px;
+    }
+    .header .section-5 .container .colonn1 p2{
+        font-size: 10px;
+    }
+    .header .section-5 .container .colonn1 h2{
+        font-size: 25px;
+    }
+    .header .section-5 .container .colonn2 img{
+        width: 400px;
+    }
+    .header .section-5 .container .colonn2{
+        margin-right: 20px;
+    }
+    .header .section-5 .container .colonn1 .button-auth3{
+        font-size: 10px;
+        width: 90%;
+        padding: 20px 20px;
+    }
+    .header .section-6 .container{
+        margin-left: 30px;
+    }
+    .header .section-6 .container .str .colonnk1 h2{
+        font-size: 20px;
+    }
+    .header .section-6 .container .str .colonnk1 p{
+        font-size: 13px;
+    }
+    .header .section-6 .container .str .colonnk2 h2{
+        font-size: 20px;
+    }
+    .header .section-6 .container .str .colonnk2 p{
+        font-size: 13px;
+    }
+    .header .section-6 .container .str .colonnk3 h2{
+        font-size: 20px;
+    }
+    .header .section-6 .container .str .colonnk3 p{
+        font-size: 13px;
+    }
+    .header .section-6 .container .str .colonnk4 h2{
+        font-size: 20px;
+    }
+    .header .section-6 .container .str .colonnk4 p{
+        font-size: 13px;
+    }
+    .header .slider-1 .container .sulka{
+        margin-left: 18%;
+        margin-right: 18%;
+    }
+
+}
+
+@media (max-width: 576px){
+    .container{
+        width:  98%;
+    }
+    .header .slider-1 .container .sulka{
+        margin-left: 10%;
+        margin-right: 10%;
+        font-size: 13px;
+    }
+    .header .navigation .container{
+        margin-left: 15px;
+    }
+    .header .navigation .container .str1 .left h2{
+        font-size: 20px;
+    }
+    .header .navigation .container .str1 .left p{
+        font-size: 10px;
+        width: 50%;
+    }
+    .header .navigation .container .str1 .left .vibor .button-auth{
+        font-size: 10px;
+        padding: 10px 20px;
+        margin-top: -50px;
+    }
+    .header .navigation .container .right .pic-3 img{
+        width: 250px;
+        margin-left: -450px;
+        margin-top: -20px;
+    }
+    .header .section-1 .container h1{
+        margin-left: -250px;
+        font-size: 20px;
+    }
+    .header .section-1 .container .group .odin{
+        margin-left: 80px;
+    }
+    .header .section-1 .container .group .dva{
+        margin-left: 80px;
+    }
+    .header .section-1 .container .group .tru{
+        margin-left: 80px;
+    }
+    .header .section-1 .container .button-auth1{
+        margin-left: 15%;
+        font-size: 10px;
+    }
+    .header .section-2 .container{
+        width: 576px !important;
+    }
+    .header .section-2 .container h2{
+        font-size: 30px;
+        width: 70%;
+    }
+    .header .section-2 .container p{
+        width: 70%;
+    }
+    .header .section-3 .container .colonka1{
+        margin-left: -10px;
+    }
+    .header .section-3 .container .colonka1 img{
+        width: 500px;
+    }
+    .header .section-3 .container .colonka2{
+        margin-left: -10px;
+    }
+    .header .section-3 .container .colonka2 .ooo{
+        flex-direction: column;
+    }
+    .header .section-3 .container .colonka2 .container1{
+        margin: 0;
+        width: 40%;
+    }
+    .header .section-3 .container .colonka2 .container2{
+        margin-top: 10px;
+        margin-left: -2px;
+        width: 40%;
+    }
+    .header .section-3 .container .colonka3{
+        width: 110%;
+    }
+    .header .section-5 .container{
+        flex-direction: column;
+    }
+    .header .section-5 .container .colonn1{
+        width: 70%;
+        margin-left: -70px;
+    }
+    .header .section-5 .container .colonn1 p{
+        width: 70%;
+        font-size: 15px;
+    }
+    .header .section-5 .container .colonn1 p2{
+        width: 70%;
+        font-size: 15px;
+    }
+    .header .section-5 .container .colonn1 .button-auth3{
+        width: 70%;
+        padding: 20px 20px;
+        margin-top: 13px;
+    }
+    .header .section-5 .container .colonn2 img{
+        margin-left: -20px;
+        margin-top: 10px;
+    }
+    .header .section-6 .container h1{
+        margin: 0;
+        width: 50%;
+    }
+    .header .section-6 .container .str{
+        flex-direction: column;
+        width: 70%;
+    }
+    .header .section-7 .container h1{
+        font-size: 25px;
+        width: 505px;
+    }
+    .header .section-7 .container .pop p{
+        font-size: 10px;
+        width: 505px;
+    }
+    .header .section-7 .container .strochka1 .kkk p{
+        font-size: 10px;
+    }
+    .header .section-7 .container .strochka1 .kkk2 p{
+        font-size: 10px;
+    }
+    .header .section-7 .container .kkk3 p{
+        font-size: 10px;
+        margin-left: -127px;
+    }
+    .header .section-7 .container .kkk3 .input-auth {
+        width: 107%;
+        margin-left: -126px;
+    }
+    .header .section-7 .container .podpiss {
+        margin-left: 90px;
+        font-size: 10px;
+    }
+    .header .section-7 .container .strochka1{
+        margin-left: -90px;
+    }
+    .header .section-7 .container .strochka2{
+        margin-left: 90px;
+        font-size: 10px;
+    }
+    .header .section-7 .container .containerS{
+        margin-left: 90px;
+        font-size: 10px;
+    }
+    .header .section-7 .container{
+        width: 570px !important;
+    }
+    .header .section-7 .container .knopk .button-auth4{
+        font-size: 10px;
+        padding: 10px 10px;
+        margin-left: 200px;
+    }
+    .header .section-8 .container .intro .intro1{
+        font-size: 11px;
+    }
+    .header .section-8 .container .intro .intro3{
+        font-size: 11px;
+    }
+    .header .section-8 .container .intro{
+        justify-content: space-between;
+        width: 80%;
+    }
+    .header .section-3 .container .colonka3{
+        flex-direction: column;
+    }
+    .header .section-3 .container .colonka3 .button-auth2{
+        width: 50%;
+        margin-left: 10px;
+    }
+    .header .slider-1 .container{
+        width: 576px !important;
+    }
+    .header .section-6 .container{
+        width: 560px !important;
+    }
+}
+@media (max-width: 480px) {
+    .container{
+        width:  98%;
+    }
+    .header .section-8 .container .intro{
+        width: 66% !important;
+        justify-content: space-between;
+    }
+    .header .section-7 .container{
+        width: 480px !important;
+    }
+    .header .section-7 .container .strochka1{
+        margin-left: 0px;
+    }
+    .header .section-7 .container .kkk3{
+        margin-left: 165px;
+        width: 85%;
+    }
+    .header .section-6 .container .str{
+        width: 60%;
+    }
+    .header .section-5 .container .colonn2 img{
+        margin-left: -70px;
+    }
+    .header .section-3 .container .colonka1 img{
+        width: 400px;
+    }
+    .header .section-3 .container .colonka3{
+        flex-direction: column;
+    }
+    .header .section-3 .container .colonka3 .button-auth2{
+        width: 30%;
+        margin-left: 10px;
+    }
+    .header .section-2 .container{
+        width: 480px !important;
+    }
+    .header .navigation .container .right .pic-3 img{
+        width: 190px;
+
+    }
+    .header .slider-1 .container .sulka{
+        font-size: 13px;
+        margin-right: 5%;
+        margin-left: 5%;
+    }
+    .header .slider-1 .container .logo img{
+        width: 80px;
+    }
+    .header .slider-1 .container{
+        width: 480px !important;
+    }
+    
+
+    
+}
